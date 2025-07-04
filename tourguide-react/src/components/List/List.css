@@ -1,0 +1,31 @@
+.container {
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+
+.form {
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    gap: 10px;
+}
+
+.loadingContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px; /* Adjust height as needed */
+  }
+
+.placesContainer {
+    margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 72vh; /* Adjust the height as needed */
+  overflow-y: auto;
+  padding-right: 16px; /* Ensure the content doesn't overlap with the scrollbar */
+}
+  

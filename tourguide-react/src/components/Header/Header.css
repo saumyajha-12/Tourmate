@@ -1,0 +1,27 @@
+.header-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-title {
+  flex-grow: 1;
+}
+
+.header-search {
+  display: flex;
+  align-items: center;
+  width: 20%; /* Adjust this percentage to your preference */
+  background-color: #ffffff;
+  border-radius: 4px;
+  padding: 2px 4px;
+}
+
+.search-icon {
+  padding: 8px;
+}
+
+.search-input {
+  width: 100%;
+  padding-left: 8px;
+}
