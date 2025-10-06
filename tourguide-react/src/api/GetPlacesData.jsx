@@ -8,8 +8,8 @@ const GetPlacesData = async (type,ne, sw) => {
   const options = {
       method: 'GET',
       headers: {
-        'x-rapidapi-key': 'a32ece8216msh6f68f09e87df514p1f9e3bjsnc5ff81c4de77',
-        'x-rapidapi-host': 'travel-advisor.p.rapidapi.com'
+        "x-rapidapi-key": process.env.REACT_APP_RAPIDAPI_KEY,
+      "x-rapidapi-host": process.env.REACT_APP_RAPIDAPI_HOST,
       }
   };
   const params = {
